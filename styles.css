@@ -1,0 +1,77 @@
+* {
+  padding: 2;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.Abc {
+  margin: 1;
+}
+.banner {
+  color: white;
+}
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+}
+
+h1 {
+  text-decoration: underline wavy rgb(207, 165, 110);
+  color: aliceblue;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  color: aliceblue;
+  text-align: center;
+}
+body {
+  background-color: rgb(88, 85, 99);
+}
+.Eviltxt {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  color: aliceblue;
+  text-align: center;
+}
+a:link {
+  color: cornflowerblue;
+}
+a:visited {
+  color: rgb(196, 196, 248);
+}
+a:hover {
+  color: rgb(108, 159, 255);
+  text-decoration: wavy;
+}
+a:active {
+  color: rgb(108, 135, 185);
+}
+
+.links li a {
+  text-align: center;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
