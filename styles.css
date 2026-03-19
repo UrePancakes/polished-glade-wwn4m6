@@ -75,3 +75,15 @@ a:active {
   padding: 0;
   gap: 20px;
 }
+@media (max-width: 600px) {
+  .navigation ul li a {
+    flex-direction: column;
+  }
+  .navigation ul li a {
+    text-align: center;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
