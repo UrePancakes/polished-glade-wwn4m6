@@ -31,7 +31,7 @@ h1 {
 }
 @font-face {
   font-family: Smash;
-  src: url(/project/workspace/smash.ttf);
+  src: url(smash.ttf);
   font-weight: normal;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ body {
 }
 .Eviltxt {
   color: red;
-  font-family: "Smash", "Franklin Gothic Medium", Arial, sans-serif;
+  font-family: "Smash", "Franklin Gothic Medium", "Arial", "sans-serif";
 }
 p {
   color: rgb(252, 252, 252);
