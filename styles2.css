@@ -50,7 +50,7 @@ p {
   color: rgb(252, 252, 252);
   text-align: center;
 }
-/*a:link {
+a:link {
   color: rgb(68, 224, 253);
 }
 a:visited {
@@ -66,7 +66,7 @@ a:active {
 .links li a {
   text-align: center;
 }
-*/
+
 .navi {
   display: flex;
   justify-content: space-between;
@@ -92,7 +92,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/*
 .buttonClass {
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -115,3 +115,4 @@ img {
 .buttonClass:hover {
   background: linear-gradient(rgba(36, 29, 62, 1), rgba(86, 67, 148, 1));
 }
+*/
