@@ -29,6 +29,12 @@ h1 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+@font-face {
+  font-family: Smash;
+  src: url(/project/workspace/smash.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 h2 {
   color: rgb(252, 252, 252);
   text-align: center;
@@ -38,7 +44,7 @@ body {
 }
 .Eviltxt {
   color: red;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Smash", "Franklin Gothic Medium", Arial, sans-serif;
 }
 p {
   color: rgb(252, 252, 252);
