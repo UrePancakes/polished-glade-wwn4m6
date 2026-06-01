@@ -92,6 +92,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+.Abcde {
+  display: flex;
+  vertical-align: middle;
+
+}
+.moverigh { 
+display: flex;
+vertical-align: right;
+}
 /*
 .buttonClass {
   font-size: 15px;
