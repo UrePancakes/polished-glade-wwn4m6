@@ -17,6 +17,7 @@ body {
 }
 .banner {
   color: white;
+  /*position: fixed;*/
 }
 .navigation ul {
   list-style-type: none;
@@ -24,7 +25,6 @@ body {
 }
 
 h1 {
-  text-decoration: underline wavy rgb(207, 165, 110);
   color: rgb(252, 252, 252);
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -48,9 +48,12 @@ body {
 }
 p {
   color: rgb(252, 252, 252);
+  padding: 0px 10px 0px 10px;
+}
+.rights {
   text-align: center;
 }
-/*a:link {
+a:link {
   color: rgb(68, 224, 253);
 }
 a:visited {
@@ -66,12 +69,12 @@ a:active {
 .links li a {
   text-align: center;
 }
-*/
+
 .navi {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 10px 50px 0px 50px;
 }
 .links {
   display: flex;
@@ -111,7 +114,24 @@ img {
   text-decoration: none;
   color: rgba(252, 252, 252, 1);
 }
-
+.buttonClass:link {
+  color: rgba(252, 252, 252, 1);
+}
+.buttonClass:visited {
+  color: rgba(252, 252, 252, 1);
+}
 .buttonClass:hover {
   background: linear-gradient(rgba(36, 29, 62, 1), rgba(86, 67, 148, 1));
+  color: rgba(252, 252, 252, 1);
+}
+.buttonClass:active {
+  color: rgba(252, 252, 252, 1);
+}
+.Abcde {
+  display: flex;
+  vertical-align: middle;
+}
+.moverigh {
+  display: flex;
+  vertical-align: right;
 }
