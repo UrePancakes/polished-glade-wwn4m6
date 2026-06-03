@@ -1,0 +1,142 @@
+* {
+  padding: 2;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.Abc {
+  margin: 1;
+  margin-top: 100px;
+}
+.banner {
+  color: white;
+  position: fixed;
+}
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+}
+
+h1 {
+  color: rgb(252, 252, 252);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@font-face {
+  font-family: Smash;
+  src: url(smash.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  color: rgb(252, 252, 252);
+  text-align: center;
+}
+body {
+  background-color: rgb(62, 49, 109);
+}
+.Eviltxt {
+  color: rgb(255, 194, 194);
+  font-family: "Smash", "Franklin Gothic Medium", "Arial", "sans-serif";
+}
+p {
+  color: rgb(252, 252, 252);
+  padding: 0px 10px 0px 10px;
+}
+.rights {
+  text-align: center;
+}
+a:link {
+  color: rgb(68, 224, 253);
+}
+a:visited {
+  color: rgb(187, 210, 216);
+}
+a:hover {
+  color: rgb(175, 245, 253);
+  text-decoration: wavy;
+}
+a:active {
+  color: rgb(95, 232, 242);
+}
+.links li a {
+  text-align: center;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px 0px 50px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+@media (max-width: 600px) {
+  .navigation ul li a {
+    flex-direction: column;
+  }
+  .navigation ul li a {
+    text-align: center;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buttonClass {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 140px;
+  height: 30px;
+  border-width: 1px;
+  border-color: rgba(37, 28, 67, 1);
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  box-shadow: inset 0px 0px 15px 3px rgba(51, 26, 135, 1);
+  text-shadow: inset 0px 1px 0px rgba(38, 28, 75, 1);
+  background: linear-gradient(rgba(86, 67, 148, 1), rgba(36, 29, 62, 1));
+  text-decoration: none;
+  color: rgba(252, 252, 252, 1);
+}
+.buttonClass:link {
+  color: rgba(252, 252, 252, 1);
+}
+.buttonClass:visited {
+  color: rgba(252, 252, 252, 1);
+}
+.buttonClass:hover {
+  background: linear-gradient(rgba(36, 29, 62, 1), rgba(86, 67, 148, 1));
+  color: rgba(252, 252, 252, 1);
+}
+.buttonClass:active {
+  color: rgba(252, 252, 252, 1);
+}
+.Abcde {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 100px;
+}
+.moverigh {
+  display: flex;
+  vertical-align: right;
+}
+.Abcdef {
+  margin-top: 100px;
+}
